@@ -416,7 +416,7 @@ win:
 depends:patches/gyp.diff
     git apply $LIBS_DIR/patches/gyp.diff
 mac:
-    python3 -m pip install --ignore-installed git+https://github.com/desktop-app/gyp-next@main
+    python3 -m pip install --ignore-installed git+https://github.com/nodejs/gyp-next@1f421c90eb
     mkdir gyp
 """, 'ThirdParty')
 
